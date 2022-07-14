@@ -26,3 +26,22 @@ h2
 {
     font-family: 'Lato', sans-serif;
 }
+
+.info
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    padding: 20em;
+    padding-top: 2em;
+}
+.space 
+{
+margin-top: 474px; 
+}
+.espaciador
+{
+    margin-left: 20px;
+}
