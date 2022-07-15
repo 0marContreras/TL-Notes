@@ -1,47 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-body
-{
-    font-family: 'Lato', sans-serif;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(248,252,241,1) 0%, rgba(0,255,134,1) 100%);
-    background-attachment: fixed;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(248, 252, 241, 1) 0%,
+    rgba(0, 255, 134, 1) 100%
+  );
+  background-attachment: fixed;
 }
-.icon
-{
-    width: 50px;
-    height: 50px;
+.icon {
+  width: 50px;
+  height: 50px;
 }
-nav
-{
-    border-radius: 12px;
-    
+nav {
+  border-radius: 12px;
 }
-.start
-{
-    align-self: center;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
+.start {
+  align-self: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
 }
-h2
-{
-    font-family: 'Lato', sans-serif;
+h2 {
+  font-family: "Lato", sans-serif;
 }
 
-.info
-{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
-    padding: 20em;
-    padding-top: 2em;
+.info {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  padding: 20em;
+  padding-top: 2em;
 }
-.space 
-{
-margin-top: 474px; 
+.space {
+  margin-top: 474px;
 }
-.espaciador
-{
-    margin-left: 20px;
+.espaciador {
+  margin-left: 20px;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  padding: 20em;
+  background-color: azure;
+}
+.customA{
+    color: rgb(247, 197, 62);
+}
+.customA:hover{
+    color: rgb(255, 19, 19);
 }
